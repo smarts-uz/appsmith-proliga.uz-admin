@@ -1,0 +1,22 @@
+INSERT INTO public."action" (
+	"name",
+	"position",
+	"type",
+	"point",
+	"created_at",
+	"updated_at",
+	"deleted_at",
+	"created_by",
+	"updated_by",
+	"deleted_by")
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.position}}',
+	'{{insert_form.formData.type}}',
+	'{{insert_form.formData.point}}',
+	'{{insert_form.formData.created_at}}',
+	'{{insert_form.formData.updated_at}}',
+	'{{insert_form.formData.deleted_at}}',
+	'{{insert_form.formData.created_by}}',
+	'{{insert_form.formData.updated_by}}',
+	'{{insert_form.formData.deleted_by}}');

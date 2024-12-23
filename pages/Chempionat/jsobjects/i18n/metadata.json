@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "675aa657ef52357b20121d83_fc3cb9c1-c3b0-454d-aca1-d81daa8bcbf4",
+  "id": "Chempionat_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "Chempionat",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  english: {\n    translation: Constants.defaultLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

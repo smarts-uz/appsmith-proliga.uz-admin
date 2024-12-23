@@ -1,0 +1,26 @@
+INSERT INTO public."user" (
+	"name",
+	"guid",
+	"company_id",
+	"role",
+	"email",
+	"phone",
+	"is_active",
+	"photo",
+	"is_super_admin",
+	"phone_second",
+	"phone_telegram"
+)
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.guid}}',
+	'{{insert_form.formData.company_id}}',
+	'{{insert_form.formData.role}}',
+	'{{insert_form.formData.email}}',
+	'{{insert_form.formData.phone}}',
+	'{{insert_form.formData.is_active}}',
+	'{{insert_form.formData.photo}}',
+	'{{insert_form.formData.is_super_admin}}',
+	'{{insert_form.formData.phone_second}}',
+	'{{insert_form.formData.phone_telegram}}'
+);

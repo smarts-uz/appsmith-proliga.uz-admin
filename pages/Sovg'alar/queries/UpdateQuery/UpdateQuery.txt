@@ -1,0 +1,8 @@
+UPDATE public."prize" 
+SET
+    "name" = '{{ update_form.formData.name || update_form.sourceData.name }}',
+    "image" = '{{ Api2.data ? "https://proliga.uz" + JSON.parse(Api2.data).filePath : insert_form.formData.content_url || "" }}',
+    "competition_id" = '{{ update_form.formData.competition_id || update_form.sourceData.competition_id }}',
+    "type" = '{{ update_form.formData.type || update_form.sourceData.type }}',
+    "order" = '{{ update_form.formData.order || update_form.sourceData.order }}'
+WHERE "id" = {{ data_table.selectedRow.id }};

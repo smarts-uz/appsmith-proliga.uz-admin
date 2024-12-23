@@ -1,0 +1,2 @@
+SELECT * FROM public."tour_team"
+ORDER BY "{{data_table.sortOrder.column || 'id'}}" {{data_table.sortOrder.order || 'ASC'}} 

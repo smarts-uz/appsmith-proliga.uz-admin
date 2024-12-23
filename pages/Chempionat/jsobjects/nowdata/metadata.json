@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "675aa657ef52357b20121d83_f54f4720-2ec4-4c48-8434-40dbc0c45766",
+  "id": "Chempionat_nowdata",
+  "unpublishedCollection": {
+    "name": "nowdata",
+    "pageId": "Chempionat",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

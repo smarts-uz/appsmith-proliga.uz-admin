@@ -1,0 +1,26 @@
+INSERT INTO public."club" (
+	"name",
+	"name_ru",
+	"competition_id",
+	"club_link",
+	"country_id",
+	"native",
+	"form_img",
+	"slug",
+	"region",
+	"trainer",
+	"logo_img"
+)
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.name_ru}}',
+	'{{insert_form.formData.competition_id}}',
+	'{{insert_form.formData.club_link}}',
+	'{{insert_form.formData.country_id}}',
+	'{{insert_form.formData.native}}',
+	'{{ Api1.data ? "https://proliga.uz" + JSON.parse(Api1.data).filePath :  "" }}',
+	'{{insert_form.formData.slug}}',
+	'{{insert_form.formData.region}}',
+	'{{insert_form.formData.trainer}}',
+	'{{ Api3.data ? "https://proliga.uz" + JSON.parse(Api3.data).filePath :  "" }}'
+);

@@ -1,0 +1,26 @@
+INSERT INTO public."team" (
+	"name",
+	"user_id",
+	"competition_id",
+	"formation",
+	"DEF",
+	"MID",
+	"STR",
+	"registered_tour_id",
+	"season_id",
+	"point",
+	"order"
+)
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.user_id}}',
+	'{{insert_form.formData.competition_id}}',
+	'{{insert_form.formData.formation}}',
+	'{{insert_form.formData.DEF}}',
+	'{{insert_form.formData.MID}}',
+	'{{insert_form.formData.STR}}',
+	'{{insert_form.formData.registered_tour_id}}',
+	'{{insert_form.formData.season_id}}',
+	'{{insert_form.formData.point}}',
+	'{{insert_form.formData.order}}'
+);

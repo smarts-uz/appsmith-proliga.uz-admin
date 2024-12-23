@@ -1,0 +1,26 @@
+INSERT INTO public."user_activity" (
+	"name_uz",
+	"user_id",
+	"activity",
+	"team_id",
+	"created_at",
+	"updated_at",
+	"deleted_at",
+	"created_by",
+	"updated_by",
+	"deleted_by",
+	"name_ru"
+)
+VALUES (
+	'{{insert_form.formData.name_uz}}',
+	'{{insert_form.formData.user_id}}',
+	'{{insert_form.formData.activity}}',
+	'{{insert_form.formData.team_id}}',
+	'{{insert_form.formData.created_at}}',
+	'{{insert_form.formData.updated_at}}',
+	'{{insert_form.formData.deleted_at}}',
+	'{{insert_form.formData.created_by}}',
+	'{{insert_form.formData.updated_by}}',
+	'{{insert_form.formData.deleted_by}}',
+	'{{insert_form.formData.name_ru}}'
+);

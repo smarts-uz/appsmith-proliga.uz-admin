@@ -1,0 +1,1 @@
+SELECT unnest(enum_range(NULL::pay_system_ext)) AS enum_value;

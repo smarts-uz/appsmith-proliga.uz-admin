@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "67652f44255a3f5b3f2e093c_2863a854-0f65-4e48-b120-ce7299f5107b",
+  "id": "Reklama bannerlar_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "Reklama bannerlar",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  english: {\n    translation: Constants.defaultLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

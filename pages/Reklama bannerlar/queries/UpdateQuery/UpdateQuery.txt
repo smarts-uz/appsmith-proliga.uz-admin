@@ -1,0 +1,9 @@
+UPDATE public."banner" SET
+    "start_date" = '{{ update_form.formData.start_date || null }}',
+    "end_date" = '{{ update_form.formData.end_date || null }}',
+    "price" = '{{ update_form.formData.price || 0 }}',
+    "link" = '{{ update_form.formData.link || "" }}',
+    "content_url" = '{{ Api2.data ? "https://proliga.uz" + JSON.parse(Api2.data).filePath : update_form.formData.content_url || "" }}',
+    "banner_type" = '{{ insert_form.formData.banner_type || null }}',
+    "type" = '{{ insert_form.formData.type || null }}'
+WHERE "id" = {{ data_table.selectedRow.id }};

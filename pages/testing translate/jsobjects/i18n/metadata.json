@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "675aa657ef52357b20121d83_ff7f508c-f9a6-433f-9fce-497295fad731",
+  "id": "testing translate_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "testing translate",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  english: {\n    translation: Constants.defaultLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

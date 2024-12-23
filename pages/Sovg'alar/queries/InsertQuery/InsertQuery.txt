@@ -1,0 +1,14 @@
+INSERT INTO public."prize" (
+    "name",
+    "image",
+    "competition_id",
+    "type",
+    "order"
+)
+VALUES (
+    '{{insert_form.formData.name}}',
+    '{{ Api1.data ? "https://proliga.uz" + JSON.parse(Api1.data).filePath : insert_form.formData.content_url || "" }}',
+    '{{insert_form.formData.competition_id}}',
+    '{{insert_form.formData.type}}',
+    '{{insert_form.formData.order}}'
+);

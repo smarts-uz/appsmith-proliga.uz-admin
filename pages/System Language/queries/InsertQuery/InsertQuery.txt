@@ -1,0 +1,26 @@
+INSERT INTO public."system_language" (
+	"name",
+	"uz",
+	"ru",
+	"en",
+	"created_at",
+	"updated_at",
+	"deleted_at",
+	"created_by",
+	"updated_by",
+	"deleted_by",
+	"is_exclude"
+)
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.uz}}',
+	'{{insert_form.formData.ru}}',
+	'{{insert_form.formData.en}}',
+	'{{insert_form.formData.created_at}}',
+	'{{insert_form.formData.updated_at}}',
+	'{{insert_form.formData.deleted_at}}',
+	'{{insert_form.formData.created_by}}',
+	'{{insert_form.formData.updated_by}}',
+	'{{insert_form.formData.deleted_by}}',
+	'{{insert_form.formData.is_exclude}}'
+);

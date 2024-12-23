@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "675aa657ef52357b20121d83_ac5570c8-cdd7-45b1-a218-7986a8b6abcc",
+  "unpublishedPage": {
+    "isHidden": false,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 970.0,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0.0,
+          "minHeight": 970.0,
+          "parentColumnSpace": 1.0,
+          "parentRowSpace": 1.0,
+          "rightColumn": 1224.0,
+          "snapColumns": 64.0,
+          "snapRows": 95.0,
+          "topRow": 0.0,
+          "type": "CANVAS_WIDGET",
+          "version": 90.0,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "Dashboard",
+    "slug": "dashboard"
+  }
+}

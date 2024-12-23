@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "67652f44255a3f5b3f2e093c_1ac1980a-a2ba-489d-bd4c-f6962e4a406f",
+  "id": "Mamlakatlar_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "Mamlakatlar",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  english: {\n    translation: Constants.defaultLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

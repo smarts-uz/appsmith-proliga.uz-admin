@@ -1,0 +1,26 @@
+INSERT INTO public."player_result" (
+	"name",
+	"player_id",
+	"club_id",
+	"played_min",
+	"position",
+	"competition_id",
+	"match_id",
+	"tour_id",
+	"is_lineup",
+	"is_lineup_more_60",
+	"goal"
+)
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.player_id}}',
+	'{{insert_form.formData.club_id}}',
+	'{{insert_form.formData.played_min}}',
+	'{{insert_form.formData.position}}',
+	'{{insert_form.formData.competition_id}}',
+	'{{insert_form.formData.match_id}}',
+	'{{insert_form.formData.tour_id}}',
+	'{{insert_form.formData.is_lineup}}',
+	'{{insert_form.formData.is_lineup_more_60}}',
+	'{{insert_form.formData.goal}}'
+);

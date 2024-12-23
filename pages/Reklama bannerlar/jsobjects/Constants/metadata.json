@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "67652f44255a3f5b3f2e093c_0597bbcd-dbdd-4d46-b9cb-f7908b7709bc",
+  "id": "Reklama bannerlar_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Reklama bannerlar",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"id\": \"id\",\n  \"Narxi\": \"Narxi\",\n  \"name\": \"name\",\n  \"Yaratilgan vaqti\": \"Yaratilgan vaqti\",\n  \"Taxrirlangan vaqti\": \"Taxrirlangan vaqti\",\n  \"Ochirilgan vaqti\": \"Ochirilgan vaqti\",\n  \"start_date\": \"start date\",\n  \"end_date\": \"end date\",\n  \"link\": \"link\",\n  \"content_url\": \"content url\",\n  \"banner_type\": \"banner type\",\n  \"view_count\": \"view_count\",\n  \"is_active\": \"is active\",\n  \"Image\": \"Image\",\n  \"shirt_number\": \"shirt number\",\n  \"point\": \"point\",\n  \"name_ru\": \"name ru\",\n  \"player_link\": \"player link\",\n  \"native\": \"native\",\n  \"slug\": \"slug\",\n  \"team_count\": \"team_count\",\n  \"percentage\": \"percentage\",\n  \"is_actualized\": \"is actualized\",\n  \"red_card\": \"red card\",\n  \"O'yinchilar\": \"O'yinchilar\",\n  \"Reklama bannerlari\": \"Reklama bannerlari\",\n  \"Language\": \"Language\",\n  \"Switching Languages\": \"Switching Languages\"\n}"
+      },
+      {
+        "name": "languageOptions",
+        "value": "[\"Russian\", \"Uzbek\"]"
+      }
+    ]
+  }
+}

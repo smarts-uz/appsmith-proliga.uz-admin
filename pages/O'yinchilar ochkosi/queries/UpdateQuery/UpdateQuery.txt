@@ -1,0 +1,13 @@
+UPDATE public."player_point" SET
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+		"player_id" = '{{update_form.fieldState.player_id.isVisible ? update_form.formData.player_id : update_form.sourceData.player_id}}',
+    "club_id" = '{{update_form.fieldState.club_id.isVisible ? update_form.formData.club_id : update_form.sourceData.club_id}}',
+		"competition_id" = '{{update_form.fieldState.competition_id.isVisible ? update_form.formData.competition_id : update_form.sourceData.competition_id}}',
+		"match_id" = '{{update_form.fieldState.match_id.isVisible ? update_form.formData.match_id : update_form.sourceData.match_id}}',
+		"tour_id" = '{{update_form.fieldState.tour_id.isVisible ? update_form.formData.tour_id : update_form.sourceData.tour_id}}',
+		"point" = '{{update_form.fieldState.point.isVisible ? update_form.formData.point : update_form.sourceData.point}}',
+		"goal" = '{{update_form.fieldState.goal.isVisible ? update_form.formData.goal : update_form.sourceData.goal}}',
+		"goal_asist" = '{{update_form.fieldState.goal_asist.isVisible ? update_form.formData.goal_asist : update_form.sourceData.goal_asist}}',
+		"missed_penalty" = '{{update_form.fieldState.missed_penalty.isVisible ? update_form.formData.missed_penalty : update_form.sourceData.missed_penalty}}',
+		"every_2_missed_goals" = '{{update_form.fieldState.every_2_missed_goals.isVisible ? update_form.formData.every_2_missed_goals : update_form.sourceData.every_2_missed_goals}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

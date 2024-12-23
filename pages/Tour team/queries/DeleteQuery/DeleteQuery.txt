@@ -1,0 +1,2 @@
+DELETE FROM public."tour_team"
+  WHERE "id" = {{data_table.triggeredRow.id}};

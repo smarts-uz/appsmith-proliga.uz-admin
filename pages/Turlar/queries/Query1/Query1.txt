@@ -1,0 +1,1 @@
+UPDATE public.tour SET deleted_at=NULL WHERE id={{data_table.triggeredRow.id}}

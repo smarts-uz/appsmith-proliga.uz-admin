@@ -1,0 +1,1 @@
+SELECT unnest(enum_range(NULL::pay_package_type)) AS enum_value;

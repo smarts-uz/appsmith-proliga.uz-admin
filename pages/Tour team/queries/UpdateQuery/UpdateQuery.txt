@@ -1,0 +1,13 @@
+UPDATE public."tour_team" SET
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+		"user_id" = '{{update_form.fieldState.user_id.isVisible ? update_form.formData.user_id : update_form.sourceData.user_id}}',
+    "tour_id" = '{{update_form.fieldState.tour_id.isVisible ? update_form.formData.tour_id : update_form.sourceData.tour_id}}',
+		"purchased_players" = '{{update_form.fieldState.purchased_players.isVisible ? update_form.formData.purchased_players : update_form.sourceData.purchased_players}}',
+		"is_purchase_locked" = '{{update_form.fieldState.is_purchase_locked.isVisible ? update_form.formData.is_purchase_locked : update_form.sourceData.is_purchase_locked}}',
+		"team_id" = '{{update_form.fieldState.team_id.isVisible ? update_form.formData.team_id : update_form.sourceData.team_id}}',
+		"price" = '{{update_form.fieldState.price.isVisible ? update_form.formData.price : update_form.sourceData.price}}',
+		"point" = '{{update_form.fieldState.point.isVisible ? update_form.formData.point : update_form.sourceData.point}}',
+		"competition_id" = '{{update_form.fieldState.competition_id.isVisible ? update_form.formData.competition_id : update_form.sourceData.competition_id}}',
+		"season_id" = '{{update_form.fieldState.season_id.isVisible ? update_form.formData.season_id : update_form.sourceData.season_id}}',
+		"captain_id" = '{{update_form.fieldState.captain_id.isVisible ? update_form.formData.captain_id : update_form.sourceData.captain_id}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

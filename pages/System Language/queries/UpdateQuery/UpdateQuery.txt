@@ -1,0 +1,13 @@
+UPDATE public."system_language" SET
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+		"uz" = '{{update_form.fieldState.uz.isVisible ? update_form.formData.uz : update_form.sourceData.uz}}',
+    "ru" = '{{update_form.fieldState.ru.isVisible ? update_form.formData.ru : update_form.sourceData.ru}}',
+		"en" = '{{update_form.fieldState.en.isVisible ? update_form.formData.en : update_form.sourceData.en}}',
+		"created_at" = '{{update_form.fieldState.created_at.isVisible ? update_form.formData.created_at : update_form.sourceData.created_at}}',
+		"updated_at" = '{{update_form.fieldState.updated_at.isVisible ? update_form.formData.updated_at : update_form.sourceData.updated_at}}',
+		"deleted_at" = '{{update_form.fieldState.deleted_at.isVisible ? update_form.formData.deleted_at : update_form.sourceData.deleted_at}}',
+		"created_by" = '{{update_form.fieldState.created_by.isVisible ? update_form.formData.created_by : update_form.sourceData.created_by}}',
+		"updated_by" = '{{update_form.fieldState.updated_by.isVisible ? update_form.formData.updated_by : update_form.sourceData.updated_by}}',
+		"deleted_by" = '{{update_form.fieldState.deleted_by.isVisible ? update_form.formData.deleted_by : update_form.sourceData.deleted_by}}',
+		"is_exclude" = '{{update_form.fieldState.is_exclude.isVisible ? update_form.formData.is_exclude : update_form.sourceData.is_exclude}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

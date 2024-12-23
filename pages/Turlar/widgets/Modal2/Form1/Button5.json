@@ -1,0 +1,48 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 37,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cudz97c6cd",
+  "leftColumn": 46,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "onClick": "{{create_tour.run().then(() => {\n  showAlert('Saqlandi', 'success');\n  closeModal(Modal2.name);\n}).catch(() => {\n  showAlert('Saqlashda xatolik qayta urunib ko\\'ring', 'error');\n});}}",
+  "parentId": "l3r6fvqjpa",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "text": "Yaratish",
+  "topRow": 33,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "pr7m9rr7ms",
+  "widgetName": "Button5"
+}

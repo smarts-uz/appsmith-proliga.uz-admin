@@ -1,0 +1,13 @@
+UPDATE public."player" SET
+		"name" = '{{update_form.formData.name ? update_form.formData.name : update_form.sourceData.name}}',
+		"position" = '{{update_form.formData.position ? update_form.formData.position : update_form.sourceData.position}}',
+    "price" = '{{update_form.formData.price ? update_form.formData.price : update_form.sourceData.price}}',
+		"image" = '{{ Api2.data ? "https://proliga.uz" + JSON.parse(Api2.data).filePath : update_form.formData.image || "" }}',
+		"shirt_number" = '{{update_form.formData.shirt_number ? update_form.formData.shirt_number : update_form.sourceData.shirt_number}}',
+		"club_id" = '{{update_form.formData.club_id ? update_form.formData.club_id : update_form.sourceData.club_id}}',
+		"point" = '{{update_form.formData.point ? update_form.formData.point : update_form.sourceData.point}}',
+		"name_ru" = '{{update_form.formData.name_ru ? update_form.formData.name_ru : update_form.sourceData.name_ru}}',
+		"player_link" = '{{update_form.formData.player_link ? update_form.formData.player_link : update_form.sourceData.player_link}}',
+		"native" = '{{update_form.formData.native ? update_form.formData.native : update_form.sourceData.native}}',
+		"slug" = '{{update_form.formData.slug ? update_form.formData.slug : update_form.sourceData.slug}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "675aa657ef52357b20121d83_f7fd1608-5556-42f2-ba83-9877d26e9a8a",
+  "id": "O'yinchilar_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "O'yinchilar",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  english: {\n    translation: Constants.defaultLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

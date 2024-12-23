@@ -1,0 +1,534 @@
+{
+  "animateLoading": true,
+  "autoGenerateForm": true,
+  "backgroundColor": "#fff",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 81,
+  "boxShadow": "none",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    },
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": true,
+  "displayName": "JSON Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "submitButtonStyles.buttonColor"
+    },
+    {
+      "key": "submitButtonStyles.borderRadius"
+    },
+    {
+      "key": "resetButtonStyles.borderRadius"
+    },
+    {
+      "key": "resetButtonStyles.buttonColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.desc.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.desc.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.desc.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.image.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.image.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.image.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.author_id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.author_id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.author_id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.created_at.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.created_at.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.created_at.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.updated_at.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.updated_at.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.updated_at.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.deleted_at.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.deleted_at.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.deleted_at.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.created_by.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.created_by.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.created_by.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.updated_by.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.updated_by.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.updated_by.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.deleted_by.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.deleted_by.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.deleted_by.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.name_ru.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.name_ru.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.name_ru.accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
+    },
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.6bacf7df.svg",
+  "isLoading": false,
+  "isVisible": "true",
+  "key": "h9l9ozr8op",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onSubmit": "{{InsertQuery.run(\n\t() => SelectQuery.run()\n\t\t\t\t\t.then(() => closeModal('Insert_Modal')), \n\t(error) => showAlert(`Error while inserting resource!\\n ${error}`,'error'))\n}}",
+  "parentColumnSpace": 8.125,
+  "parentId": "9rhv3ioohq",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "Reset",
+  "resetButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "SECONDARY"
+  },
+  "rightColumn": 64,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "author_id": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "author_id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.author_id))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "author_id",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Author Id",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "author_id",
+          "position": 3
+        },
+        "created_at": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "created_at",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.created_at))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "created_at",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Created At",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "created_at",
+          "position": 4,
+          "sourceData": "2024-09-19T17:27:23.242597Z"
+        },
+        "created_by": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "created_by",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.created_by))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "created_by",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Created By",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "created_by",
+          "position": 7
+        },
+        "deleted_at": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "deleted_at",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.deleted_at))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "deleted_at",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Deleted At",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "deleted_at",
+          "position": 6
+        },
+        "deleted_by": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "deleted_by",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.deleted_by))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "deleted_by",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Deleted By",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "deleted_by",
+          "position": 9
+        },
+        "desc": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "desc",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.desc))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "desc",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Matni",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "desc",
+          "position": 1,
+          "sourceData": "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Қ</strong><strong>оидалар</strong></p>\\r\\n<p>Футбол Фэнтези ўйини бутун дунёда энг оммабоп вертуал футбол ўйини ҳисобланади. Энди сиз ҳам шу ўйин иштирокчисига айланишингиз мумкин. Бу ўйин футболга қизиқишингизни янада ортириб, ушбу спорт турида қай даража&nbsp; мутахассис эканлигингизни очиб беради. <br /><br /><strong>Қ</strong><strong>ис</strong><strong>қ</strong><strong>ача </strong><strong>ў</strong><strong>йин шартлари</strong>: Сиз ўзингизга жамоа тузасиз ва ўша тузган жамоангиздаги футболчилар хақиқий ҳаётда гол урса, голли узатмалар оширса ва яна кўплаб харакатлари учун сизга очколар бериб борилади.</p>\\r\\n<p><strong>Ў</strong><strong>йинни бошлаш</strong></p>\\r\\n<p>Ўйинни бошлаш учун бир чемпионатдан 11 та футболчи танлаб оласиз.</p>\\r\\n<p><strong>Футболчилар лимити</strong> &ndash; ҳар бир жамоадан 2тадан ошиқ футболчи сотиб ололмайсиз.</p>\\r\\n<p><strong>Бюджет лимити</strong> &ndash; сизга 100 танга берилади, шу суммага 11 та футболчи ҳарид қиласиз.</p>\\r\\n<p><strong>Жамоа сардори</strong></p>\\r\\n<p>Ҳар бир тур учун 11 футболчидан бирини жамоа сардори этиб тайинлайсиз. Жамоа сардори ўша турда қанча очко олиб келса иккига кўпайтирилиб сизга шунча очко ёзилади.</p>\\r\\n<p><strong>Дедлайн</strong></p>\\r\\n<p>Тур бошланишидан олдин барча ўзгартиришлар, трансферлар, сардор танлаш ва жамоани тасдиқлашни ДЕДЛАЙН гача қилиб бўлишингиз шарт! Масалан 2-тур дедлайни 20 октябрь 16:00. Сиз шу вактгача 2-тур учун барча ўзгаришларни қилиб бўлишингиз зарур.</p>\\r\\n<p><strong>Трансфер</strong></p>\\r\\n<p>Жамоани тузиб бўлганингиздан сўнг, ҳар бир турда 2 та трансфер қилиш ҳуқуқига эга бўласиз. Трансферни амалга ошириш учун, Трансфер ойнасига ўтасиз ва жамоангиздаги футболчини сотиб ўрнига бошқа футболчи ҳарид қиласиз. <strong>Ёдингизда тутинг</strong>, трансферларни тур бошлангунига қадар дедлайнгача қилиб олишингиз зарур, дедлайн тугаганидан сўнг қилинган трансферлар кейинги турга ўтади.</p>\\r\\n<p><strong>&nbsp;</strong></p>\\r\\n<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p>\\r\\n<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Очколар </strong><strong>ҳ</strong><strong>исоблаш тизими</strong></p>\\r\\n<table style=\\\"width: 100%;\\\" border=\\\"1\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\">\\r\\n<tbody>\\r\\n<tr style=\\\"height: 16.85pt;\\\">\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>Кўрсаткич</p>\\r\\n</td>\\r\\n<td valign=\\\"top\\\">\\r\\n<p>Дарвозабон</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>Ҳимоячи</p>\\r\\n</td>\\r\\n<td valign=\\\"top\\\">\\r\\n<p>Яр.ҳимоячи</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>Хужумчи</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr style=\\\"height: 16.85pt;\\\">\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>Ўйинга тушса</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>1</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>1</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>1</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>1</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr style=\\\"height: 28.45pt;\\\">\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>60 дақиқа ва ундан кўп ўйнаса</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>1</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>1</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>1</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>1</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr style=\\\"height: 16.85pt;\\\">\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>Ҳар битта гол учун</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>6</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>6</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>5</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>4</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr style=\\\"height: 17.75pt;\\\">\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>Голли узатма учун</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>3</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>3</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>3</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>3</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr style=\\\"height: 28.45pt;\\\">\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>Қуруқ ўйин учун</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>4</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>4</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>1</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>&nbsp;</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr style=\\\"height: 28.45pt;\\\">\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>Қайтарилган пенальти учун</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>6</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>&nbsp;</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>&nbsp;</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>&nbsp;</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr style=\\\"height: 28.45pt;\\\">\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>Авто гол учун</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>-2</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>-2</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>-2</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>-2</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr style=\\\"height: 28.45pt;\\\">\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>Ўтказиб юборилган ҳар 2та топ фарқи учун</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>-1</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>-1</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>&nbsp;</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>&nbsp;</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr style=\\\"height: 29.3pt;\\\">\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>Амалга оширилмаган пенальти учун</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>-3</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>-3</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>-3</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>-3</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr style=\\\"height: 16.85pt;\\\">\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>Сариқ карточка учун</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>-1</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>-1</p>\\r\\n</td>\\r\\n<td   valign=\\\"top\\\">\\r\\n<p>-1</p>\\r\\n</td>\\r\\n<td valign=\\\"top\\\">\\r\\n<p>-1</p>\\r\\n</td>\\r\\n</tr>\\r\\n<tr style=\\\"height: 16.85pt;\\\">\\r\\n<td valign=\\\"top\\\">\\r\\n<p>Қизил карточка учун</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>-2</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>-2</p>\\r\\n</td>\\r\\n<td  valign=\\\"top\\\">\\r\\n<p>-2</p>\\r\\n</td>\\r\\n<td valign=\\\"top\\\">\\r\\n<p>-2</p>\\r\\n</td>\\r\\n</tr>\\r\\n</tbody>\\r\\n</table>\\r\\n<p>&nbsp;</p>\\r\\n<p><strong>Тўлов хизмати</strong></p>\\r\\n<p>1. Сайт ҳар бир тур учун 2 та трансферга рухсат беради. Мусобақада ғалаба қозониш учун фойдаланувчига яна 3 та қўшимча трансфер керак бўлиши мумкин (жами 5 та трансфер). Шу сабабли, фойдаланувчилар қўшимча 3 та трансфер учун тўлов амалга оширилади. <br /><br />Трансфер лимитини 2 тадан <strong>3 тагача</strong> ошириш тўлов нархи &ndash; <strong>35. 000 сум</strong> <em>(ҳар бир чемпионат учун, бутун мавсум амал қилади).</em><br />Трансфер лимитини 2 тадан <strong>4 тагача</strong> ошириш тўлов нархи &ndash; <strong>50. 000 сум</strong> <em>(ҳар бир чемпионат учун, бутун мавсум амал қилади).<br /></em>Трансфер лимитини 2 тадан <strong>5 тагача</strong> ошириш тўлов нархи &ndash; <strong>65. 000 сум</strong> <em>(ҳар бир чемпионат учун, бутун мавсум амал қилади).</em></p>\\r\\n<p>&nbsp;</p>\\r\\n<p>2. Сайтда ҳар бир жамоадан 2 нафардан футболчи сотиб олишингиз мумкин. Мусобақада ғалаба қозониш учун иккита футболчи етарли бўлмаслиги мумкин. Фойдаланувчига қўшимча равишда ҳар бир жамоадан яна 3 та футболчи (жами 5 ўйинчи) сотиб олишлари мумкин бўлади. Шу сабабли, фойдаланувчидан 3 та қўшимча футболчи учун тўлов амалга оширилади.<br /><br />Бир жамоа лимитини 2 тадан <strong>3 тагача</strong> ошириш тўлов нархи &ndash; <strong>35. 000 сум</strong> <em>(ҳар бир чемпионат учун, бутун мавсум амал қилади).<br /></em>Бир жамоа лимитини 2 тадан <strong>4 тагача</strong> ошириш тўлов нархи &ndash; <strong>50. 000 сум</strong> <em>(ҳар бир чемпионат учун, бутун мавсум амал қилади).<br /></em>Бир жамоа лимитини 2 тадан <strong>5 тагача</strong> ошириш тўлов нархи &ndash; <strong>65. 000 сум</strong> <em>(ҳар бир чемпионат учун, бутун мавсум амал қилади).</em></p>\\r\\n<p>&nbsp;</p>\\r\\n<p>3. Сайтдан футболчиларни сотиб олиш учун фойдаланувчига 100 танга (сайт валютаси) берилади. Мусобақада ғалаба қозониш учун 100 танга етарли бўлмаслиги мумкин. Тангаларни кўпайтириш учун фойдаланувчига қўшимча 30 тангагача сотиб олиш имкониятига эга бўлади. Шу сабабли, фойдаланувчи қўшимча тангага эга бўлиш учун тўлов амалга оширилади.<br /><br />Баланс лимитини 100 тангадан <strong>110 тангагача</strong> ошириш тўлов нархи &ndash; <strong>35. 000 сум</strong> <em>(ҳар бир чемпионат учун, бутун мавсум амал қилади).<br /></em>Баланс лимитини 100 тангадан <strong>120 тангагача</strong> ошириш тўлов нархи &ndash; <strong>50. 000 сум</strong> <em>(ҳар бир чемпионат учун, бутун мавсум амал қилади).<br /></em>Баланс лимитини 100 тангадан <strong>130 тангагача</strong> ошириш тўлов нархи &ndash; <strong>65. 000 сум</strong> <em>(ҳар бир чемпионат учун, бутун мавсум амал қилади).</em></p>"
+        },
+        "image": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "image",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.image))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "image",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Image",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "image",
+          "position": 2
+        },
+        "name": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "name",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.name))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "name",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Nomi",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "name",
+          "position": 0,
+          "sourceData": "af"
+        },
+        "name_ru": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "name_ru",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.name_ru))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "name_ru",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Name Ru",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "name_ru",
+          "position": 10,
+          "sourceData": "НОВОСТЬ1"
+        },
+        "updated_at": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "updated_at",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.updated_at))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "updated_at",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Updated At",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "updated_at",
+          "position": 5,
+          "sourceData": "2024-10-21T12:27:35.790427Z"
+        },
+        "updated_by": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "updated_by",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.updated_by))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "updated_by",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Updated By",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "updated_by",
+          "position": 8
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "col1": 5,
+        "col2": "skill B",
+        "col3": 9,
+        "col4": true
+      }
+    }
+  },
+  "scrollContents": true,
+  "showReset": true,
+  "sourceData": "{{_.omit(data_table.tableData[0], \"customColumn1\", \"id\")}}",
+  "submitButtonLabel": "Submit",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "PRIMARY"
+  },
+  "title": "Insert Row",
+  "topRow": 0,
+  "type": "JSON_FORM_WIDGET",
+  "version": 1,
+  "widgetId": "o8oiq6vwkk",
+  "widgetName": "insert_form"
+}

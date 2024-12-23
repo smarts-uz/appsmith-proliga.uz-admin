@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "675aa657ef52357b20121d83_ec6de886-a1c1-4e13-9e21-0ec0a9853fe5",
+  "id": "Match_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "Match",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  english: {\n    translation: Constants.defaultLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

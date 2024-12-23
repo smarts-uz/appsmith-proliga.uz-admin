@@ -1,0 +1,26 @@
+INSERT INTO public."competition" (
+	"name",
+	"title",
+	"counter",
+	"country_id",
+	"flag",
+	"name_ru",
+	"slug",
+	"competition_link",
+	"can_register",
+	"team_count",
+	"average_team_point"
+)
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.title}}',
+	'{{insert_form.formData.counter}}',
+	'{{insert_form.formData.country_id}}',
+	'{{ Api2.data ? "https://proliga.uz" + JSON.parse(Api2.data).filePath : update_form.formData.flag || "" }}',
+	'{{insert_form.formData.name_ru}}',
+	'{{insert_form.formData.slug}}',
+	'{{insert_form.formData.competition_link}}',
+	'{{insert_form.formData.can_register}}',
+	'{{insert_form.formData.team_count}}',
+	'{{insert_form.formData.average_team_point}}'
+);

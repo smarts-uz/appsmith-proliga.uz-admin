@@ -1,0 +1,13 @@
+UPDATE public."team_player" SET
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+		"player_id" = '{{update_form.fieldState.player_id.isVisible ? update_form.formData.player_id : update_form.sourceData.player_id}}',
+    "order_number" = '{{update_form.fieldState.order_number.isVisible ? update_form.formData.order_number : update_form.sourceData.order_number}}',
+		"is_captain" = '{{update_form.fieldState.is_captain.isVisible ? update_form.formData.is_captain : update_form.sourceData.is_captain}}',
+		"team_id" = '{{update_form.fieldState.team_id.isVisible ? update_form.formData.team_id : update_form.sourceData.team_id}}',
+		"position" = '{{update_form.fieldState.position.isVisible ? update_form.formData.position : update_form.sourceData.position}}',
+		"club_id" = '{{update_form.fieldState.club_id.isVisible ? update_form.formData.club_id : update_form.sourceData.club_id}}',
+		"price" = '{{update_form.fieldState.price.isVisible ? update_form.formData.price : update_form.sourceData.price}}',
+		"tour_id" = '{{update_form.fieldState.tour_id.isVisible ? update_form.formData.tour_id : update_form.sourceData.tour_id}}',
+		"competition_id" = '{{update_form.fieldState.competition_id.isVisible ? update_form.formData.competition_id : update_form.sourceData.competition_id}}',
+		"user_id" = '{{update_form.fieldState.user_id.isVisible ? update_form.formData.user_id : update_form.sourceData.user_id}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

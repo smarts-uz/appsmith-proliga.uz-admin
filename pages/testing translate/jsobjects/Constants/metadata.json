@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "675aa657ef52357b20121d83_2250574b-f937-40db-8373-3c0c4bd26dec",
+  "id": "testing translate_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "testing translate",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"Laqab\": \"Laqab\",\n  \"counter\": \"counter\",\n  \"davlat\": \"davlat\",\n  \"flag\": \"flag\",\n  \"name\": \"name\",\n  \"name_ru\": \"name_ru\",\n  \"Language\": \"Language\",\n  \"avatar\": \"Avatar\",\n  \"slug\": \"slug\",\n  \"competition_link\": \"competition_link\",\n  \"can_register\": \"can_register\",\n  \"team_count\": \"team_count\",\n  \"status\": \"Status\",\n  \"createdAt\": \"Created At\",\n  \"updatedAt\": \"Updated At\",\n  \"Confirm\": \"Confirm\",\n  \"Clear\": \"Clear\",\n  \"Delete\": \"Delete\",\n  \"Switching Languages\": \"Switching Languages\"\n}"
+      },
+      {
+        "name": "languageOptions",
+        "value": "[\"English\", \"French\", \"German\", \"Dutch\", \"Chinese\", \"Japanese\", \"Spanish\", \"Arabic\", \"Hindi\", \"Russian\", \"Portugese\", \"Urdu\", \"Uzbek\"]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "appIsExample": false,
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#FFEFDB",
+  "evaluationVersion": 2,
+  "icon": "laptop",
+  "pages": [
+    {
+      "id": "Dashboard",
+      "isDefault": true
+    },
+    {
+      "id": "Match",
+      "isDefault": false
+    },
+    {
+      "id": "O'yinchilar natijasi",
+      "isDefault": false
+    },
+    {
+      "id": "O'yinchilar ochkosi",
+      "isDefault": false
+    },
+    {
+      "id": "Turlar",
+      "isDefault": false
+    },
+    {
+      "id": "Yangiliklar",
+      "isDefault": false
+    },
+    {
+      "id": "O'yinchilar",
+      "isDefault": false
+    },
+    {
+      "id": "Reklama bannerlar",
+      "isDefault": false
+    },
+    {
+      "id": "Mamlakatlar",
+      "isDefault": false
+    },
+    {
+      "id": "Klublar",
+      "isDefault": false
+    },
+    {
+      "id": "Jamoalar",
+      "isDefault": false
+    },
+    {
+      "id": "Action",
+      "isDefault": false
+    },
+    {
+      "id": "Balans to'ldirish",
+      "isDefault": false
+    },
+    {
+      "id": "System Config",
+      "isDefault": false
+    },
+    {
+      "id": "Sotib olingan paketlar",
+      "isDefault": false
+    },
+    {
+      "id": "System Language",
+      "isDefault": false
+    },
+    {
+      "id": "Xabarlar",
+      "isDefault": false
+    },
+    {
+      "id": "Tour team",
+      "isDefault": false
+    },
+    {
+      "id": "Paketlar",
+      "isDefault": false
+    },
+    {
+      "id": "Team player",
+      "isDefault": false
+    },
+    {
+      "id": "Sovg'alar",
+      "isDefault": false
+    },
+    {
+      "id": "Reklamalarni ko'rishlar",
+      "isDefault": false
+    },
+    {
+      "id": "Mavsum",
+      "isDefault": false
+    },
+    {
+      "id": "Userlar",
+      "isDefault": false
+    },
+    {
+      "id": "Foydalanuvchilar faoliyati",
+      "isDefault": false
+    },
+    {
+      "id": "User sovg'alari",
+      "isDefault": false
+    },
+    {
+      "id": "testing translate",
+      "isDefault": false
+    },
+    {
+      "id": "Chempionat",
+      "isDefault": false
+    }
+  ],
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}

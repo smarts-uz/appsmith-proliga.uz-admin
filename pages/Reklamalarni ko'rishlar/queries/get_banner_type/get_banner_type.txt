@@ -1,0 +1,1 @@
+SELECT unnest(enum_range(NULL::banner_service_type)) AS enum_value;

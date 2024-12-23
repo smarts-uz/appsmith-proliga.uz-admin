@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "675aa657ef52357b20121d83_723b6a6b-e9ac-4cd6-ab99-c99bab12e02d",
+  "id": "Yangiliklar_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Yangiliklar",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"Nomi\": \"Nomi\",\n  \"Matni\": \"Matni\",\n  \"Surati\": \"Surati\",\n  \"Ruscha nomi\": \"Ruscha nomi\",\n  \"Boshlanish vaqti\": \"Boshlanish vaqti\",\n  \"Tugash vaqti\": \"Tugash vaqti\",\n  \"Status\": \"Status\",\n  \"Qizil kartochka\": \"Qizil kartochka\",\n  \"Sariq kartochka\": \"Sariq kartochka\",\n  \"O'yinga tushganiga\": \"O'yinga tushganiga\",\n  \"60 minutdan ko'p o'ynaganiga\": \"60 minutdan ko'p o'ynaganiga\",\n  \"Quruq o'yin\": \"Quruq o'yin\",\n  \"Yaratilgan vaqti\": \"Yaratilgan vaqti\",\n  \"Mavsum\": \"Mavsum\",\n  \"Qaytarilgan penalty\": \"Qaytarilgan penalty\",\n  \"Avtogol\": \"Avtogol\",\n  \"Yangiliklar\": \"Yangiliklar\",\n  \"Language\": \"Language\",\n  \"Switching Languages\": \"Switching Languages\"\n}"
+      },
+      {
+        "name": "languageOptions",
+        "value": "[\"Russian\", \"Uzbek\"]"
+      }
+    ]
+  }
+}

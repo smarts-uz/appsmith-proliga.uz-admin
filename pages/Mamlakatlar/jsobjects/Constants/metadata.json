@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "67652f44255a3f5b3f2e093c_8e36e43f-22e2-4dd3-a50c-61584816aa59",
+  "id": "Mamlakatlar_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Mamlakatlar",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"name\": \"name\",\n  \"Narxi\": \"Narxi\",\n  \"flag_url\": \"flag url\",\n  \"Mamlakatlar\": \"Mamlakatlar\",\n  \"Delete\": \"Delete\",\n  \"Language\": \"Language\",\n  \"Switching Languages\": \"Switching Languages\"\n}"
+      },
+      {
+        "name": "languageOptions",
+        "value": "[\"Russian\", \"Uzbek\"]"
+      }
+    ]
+  }
+}

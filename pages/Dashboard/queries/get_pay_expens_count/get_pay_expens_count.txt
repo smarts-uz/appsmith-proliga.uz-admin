@@ -1,0 +1,12 @@
+SELECT 
+    COUNT(*) AS count,     
+    SUM(e.price) AS total_price, 
+    p.type AS pay_package_type
+FROM 
+    pay_expense e
+JOIN 
+    pay_package p
+ON 
+    e.pay_package_id = p.id
+GROUP BY 
+    p.type;

@@ -1,0 +1,26 @@
+INSERT INTO public."system_config" (
+	"name",
+	"key",
+	"value",
+	"type",
+	"is_list",
+	"group",
+	"created_at",
+	"updated_at",
+	"deleted_at",
+	"created_by",
+	"updated_by"
+)
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.key}}',
+	'{{insert_form.formData.value}}',
+	'{{insert_form.formData.type}}',
+	'{{insert_form.formData.is_list}}',
+	'{{insert_form.formData.group}}',
+	'{{insert_form.formData.created_at}}',
+	'{{insert_form.formData.updated_at}}',
+	'{{insert_form.formData.deleted_at}}',
+	'{{insert_form.formData.created_by}}',
+	'{{insert_form.formData.updated_by}}'
+);

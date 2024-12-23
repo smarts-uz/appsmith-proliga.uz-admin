@@ -1,0 +1,1 @@
+SELECT unnest(enum_range(NULL::player_position)) AS enum_value;

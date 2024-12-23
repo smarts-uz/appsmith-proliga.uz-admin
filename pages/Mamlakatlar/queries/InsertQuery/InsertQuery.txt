@@ -1,0 +1,18 @@
+INSERT INTO public."country" (
+	"name",
+	"flag_url",
+	"created_at",
+	"updated_at",
+	"deleted_at",
+	"created_by",
+	"updated_by",
+	"deleted_by")
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.flag_url}}',
+	'{{insert_form.formData.created_at}}',
+	'{{insert_form.formData.updated_at}}',
+	'{{insert_form.formData.deleted_at}}',
+	'{{insert_form.formData.created_by}}',
+	'{{insert_form.formData.updated_by}}',
+	'{{insert_form.formData.deleted_by}}');

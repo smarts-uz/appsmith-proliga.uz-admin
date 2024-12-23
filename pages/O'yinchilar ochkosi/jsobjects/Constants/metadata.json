@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "675aa657ef52357b20121d83_1bc55956-eaa2-40d8-829b-d7dcbaf59a56",
+  "id": "O'yinchilar ochkosi_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "O'yinchilar ochkosi",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"O'yinchii\": \"O'yinchii\",\n  \"O'yin\": \"O'yin\",\n  \"Ochko\": \"Ochko\",\n  \"Gol\": \"Gol\",\n  \"Assist\": \"Assist\",\n  \"Urilmagan penalty\": \"Urilmagan penalty\",\n  \"O'tkazib yuborilgan har 2ta gol\": \"O'tkazib yuborilgan har 2ta gol\",\n  \"Qizil kartochka\": \"Qizil kartochka\",\n  \"Sariq kartochka\": \"Sariq kartochka\",\n  \"O'yinga tushganiga\": \"O'yinga tushganiga\",\n  \"60 minutdan ko'p o'ynaganiga\": \"60 minutdan ko'p o'ynaganiga\",\n  \"Quruq o'yin\": \"Quruq o'yin\",\n  \"Yaratilgan vaqti\": \"Yaratilgan vaqti\",\n  \"Mavsum\": \"Mavsum\",\n  \"Qaytarilgan penalty\": \"Qaytarilgan penalty\",\n  \"Avtogol\": \"Avtogol\",\n  \"O'yinchilar ochkolari\": \"O'yinchilar ochkolari\",\n  \"Language\": \"Language\",\n  \"Switching Languages\": \"Switching Languages\"\n}"
+      },
+      {
+        "name": "languageOptions",
+        "value": "[\"Russian\", \"Uzbek\"]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+UPDATE match SET deleted_at=NULL WHERE id={{data_table.triggeredRow.id}}

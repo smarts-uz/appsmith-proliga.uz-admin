@@ -1,0 +1,37 @@
+{
+  "borderRadius": "0px",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "2rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentId": "zi8fjakv8o",
+  "rightColumn": 48,
+  "text": "{{data_table.triggeredRow.name}}",
+  "textAlign": "CENTER",
+  "textColor": "#231F20",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "35yoxo4oec",
+  "widgetName": "Alert_text"
+}

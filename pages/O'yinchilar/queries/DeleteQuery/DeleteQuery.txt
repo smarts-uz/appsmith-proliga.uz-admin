@@ -1,0 +1,1 @@
+UPDATE public.player SET deleted_at='{{nowdata.myFun2.data}}'::timestamptz WHERE id={{data_table.triggeredRow.id}}

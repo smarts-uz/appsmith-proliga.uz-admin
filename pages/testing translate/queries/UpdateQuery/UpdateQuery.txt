@@ -1,0 +1,13 @@
+UPDATE public."competition" SET
+		"title" = '{{update_form.fieldState.title.isVisible ? update_form.formData.title : update_form.sourceData.title}}',
+		"counter" = '{{update_form.fieldState.counter.isVisible ? update_form.formData.counter : update_form.sourceData.counter}}',
+    "country_id" = '{{update_form.fieldState.country_id.isVisible ? update_form.formData.country_id : update_form.sourceData.country_id}}',
+		"flag" = '{{update_form.fieldState.flag.isVisible ? update_form.formData.flag : update_form.sourceData.flag}}',
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+		"name_ru" = '{{update_form.fieldState.name_ru.isVisible ? update_form.formData.name_ru : update_form.sourceData.name_ru}}',
+		"slug" = '{{update_form.fieldState.slug.isVisible ? update_form.formData.slug : update_form.sourceData.slug}}',
+		"competition_link" = '{{update_form.fieldState.competition_link.isVisible ? update_form.formData.competition_link : update_form.sourceData.competition_link}}',
+		"can_register" = '{{update_form.fieldState.can_register.isVisible ? update_form.formData.can_register : update_form.sourceData.can_register}}',
+		"team_count" = '{{update_form.fieldState.team_count.isVisible ? update_form.formData.team_count : update_form.sourceData.team_count}}',
+		"average_team_point" = '{{update_form.fieldState.average_team_point.isVisible ? update_form.formData.average_team_point : update_form.sourceData.average_team_point}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

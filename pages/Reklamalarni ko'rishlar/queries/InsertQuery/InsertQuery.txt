@@ -1,0 +1,26 @@
+INSERT INTO public."banner_view" (
+	"name",
+	"banner_id",
+	"created_at",
+	"geo",
+	"agent",
+	"user_id",
+	"updated_at",
+	"deleted_at",
+	"created_by",
+	"updated_by",
+	"deleted_by"
+)
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.banner_id}}',
+	'{{insert_form.formData.created_at}}',
+	'{{insert_form.formData.geo}}',
+	'{{insert_form.formData.agent}}',
+	'{{insert_form.formData.user_id}}',
+	'{{insert_form.formData.updated_at}}',
+	'{{insert_form.formData.deleted_at}}',
+	'{{insert_form.formData.created_by}}',
+	'{{insert_form.formData.updated_by}}',
+	'{{insert_form.formData.deleted_by}}'
+);

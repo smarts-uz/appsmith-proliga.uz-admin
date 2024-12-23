@@ -1,0 +1,13 @@
+UPDATE public."user" SET
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+		"guid" = '{{update_form.fieldState.guid.isVisible ? update_form.formData.guid : update_form.sourceData.guid}}',
+    "company_id" = '{{update_form.fieldState.company_id.isVisible ? update_form.formData.company_id : update_form.sourceData.company_id}}',
+		"role" = '{{update_form.fieldState.role.isVisible ? update_form.formData.role : update_form.sourceData.role}}',
+		"email" = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}',
+		"phone" = '{{update_form.fieldState.phone.isVisible ? update_form.formData.phone : update_form.sourceData.phone}}',
+		"is_active" = '{{update_form.fieldState.is_active.isVisible ? update_form.formData.is_active : update_form.sourceData.is_active}}',
+		"photo" = '{{update_form.fieldState.photo.isVisible ? update_form.formData.photo : update_form.sourceData.photo}}',
+		"is_super_admin" = '{{update_form.fieldState.is_super_admin.isVisible ? update_form.formData.is_super_admin : update_form.sourceData.is_super_admin}}',
+		"phone_second" = '{{update_form.fieldState.phone_second.isVisible ? update_form.formData.phone_second : update_form.sourceData.phone_second}}',
+		"phone_telegram" = '{{update_form.fieldState.phone_telegram.isVisible ? update_form.formData.phone_telegram : update_form.sourceData.phone_telegram}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

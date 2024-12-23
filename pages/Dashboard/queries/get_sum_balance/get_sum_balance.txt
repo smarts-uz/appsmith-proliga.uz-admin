@@ -1,0 +1,4 @@
+SELECT   
+    COALESCE(SUM(price), 0) as sum_price
+FROM  
+    pay_balance

@@ -1,0 +1,2 @@
+DELETE FROM public."player_result"
+  WHERE "id" = {{data_table.triggeredRow.id}};

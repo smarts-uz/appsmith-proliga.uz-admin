@@ -1,0 +1,26 @@
+INSERT INTO public."pay_balance" (
+	"name",
+	"user_id",
+	"price",
+	"system",
+	"transaction_id",
+	"currency_code",
+	"state",
+	"updated_time",
+	"detail",
+	"created_at",
+	"updated_at"
+)
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.user_id}}',
+	'{{insert_form.formData.price}}',
+	'{{insert_form.formData.system}}',
+	'{{insert_form.formData.transaction_id}}',
+	'{{insert_form.formData.currency_code}}',
+	'{{insert_form.formData.state}}',
+	'{{insert_form.formData.updated_time}}',
+	'{{insert_form.formData.detail}}',
+	'{{insert_form.formData.created_at}}',
+	'{{insert_form.formData.updated_at}}'
+);

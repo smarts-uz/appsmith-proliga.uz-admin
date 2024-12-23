@@ -1,0 +1,26 @@
+INSERT INTO public."player_point" (
+	"name",
+	"player_id",
+	"club_id",
+	"competition_id",
+	"match_id",
+	"tour_id",
+	"point",
+	"goal",
+	"goal_asist",
+	"missed_penalty",
+	"every_2_missed_goals"
+)
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.player_id}}',
+	'{{insert_form.formData.club_id}}',
+	'{{insert_form.formData.competition_id}}',
+	'{{insert_form.formData.match_id}}',
+	'{{insert_form.formData.tour_id}}',
+	'{{insert_form.formData.point}}',
+	'{{insert_form.formData.goal}}',
+	'{{insert_form.formData.goal_asist}}',
+	'{{insert_form.formData.missed_penalty}}',
+	'{{insert_form.formData.every_2_missed_goals}}'
+);

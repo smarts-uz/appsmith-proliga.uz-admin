@@ -1,0 +1,18 @@
+INSERT INTO public."banner" (
+    "start_date",
+    "end_date",
+    "price",
+    "link",
+    "content_url",
+		"banner_type",
+		"type"
+)
+VALUES (
+    '{{insert_form.formData.start_date}}',
+    '{{insert_form.formData.end_date}}',
+    '{{insert_form.formData.price}}',
+    '{{insert_form.formData.link}}',
+	 '{{ Api1.data ? "https://proliga.uz" + JSON.parse(Api1.data).filePath : insert_form.formData.content_url || "" }}',
+	  '{{insert_form.formData.banner_type}}',
+	  '{{insert_form.formData.type}}'
+);

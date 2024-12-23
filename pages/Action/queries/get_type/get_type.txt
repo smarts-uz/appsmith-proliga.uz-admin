@@ -1,0 +1,1 @@
+SELECT unnest(enum_range(NULL::point_action)) AS enum_value;

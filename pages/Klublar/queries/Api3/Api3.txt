@@ -1,0 +1,6 @@
+{
+	"base64Data": "{{ FilePicker3.files[0]?.data ? cut.formatBase64Data(FilePicker3.files[0].data) : '' }}",
+	"fileName": "{{ FilePicker3.files[0]?.name ? 'app.' + cutExtentiton.formatExtension(FilePicker3.files[0].name) : '' }}",
+	"folderName": "club",
+	"subFolderName": "{{ insert_form.formData.slug || null }}"
+}

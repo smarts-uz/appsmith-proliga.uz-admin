@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "675aa657ef52357b20121d83_d7c04bcf-f695-4d11-b8ad-1a36ea8c2978",
+  "id": "O'yinchilar natijasi_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "O'yinchilar natijasi",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"Nomi\": \"Nomi\",\n  \"Match\": \"Match\",\n  \"O'ynagan daqiqasi\": \"O'ynagan daqiqasi\",\n  \"Pozitsyasi\": \"Pozitsyasi\",\n  \"Gol\": \"Gol\",\n  \"Assist\": \"Assist\",\n  \"Urilmagan penalty\": \"Urilmagan penalty\",\n  \"O'tkazib yuborilgan har 2ta gol\": \"O'tkazib yuborilgan har 2ta gol\",\n  \"Qizil kartochka\": \"Qizil kartochka\",\n  \"Sariq kartochka\": \"Sariq kartochka\",\n  \"Quruq o'yin\": \"Quruq o'yin\",\n  \"Mavsum\": \"Mavsum\",\n  \"Qaytarilgan penalty\": \"Qaytarilgan penalty\",\n  \"Autogoal\": \"Autogoal\",\n  \"O'yinchilar natijalari\": \"O'yinchilar natijalari\",\n  \"Language\": \"Language\",\n  \"Switching Languages\": \"Switching Languages\"\n}"
+      },
+      {
+        "name": "languageOptions",
+        "value": "[\"Russian\", \"Uzbek\"]"
+      }
+    ]
+  }
+}

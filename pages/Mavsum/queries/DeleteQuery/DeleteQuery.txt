@@ -1,0 +1,1 @@
+UPDATE season SET deleted_at={{nowdate.myFun2.data}} WHERE id={{data_table.triggeredRow.id}}

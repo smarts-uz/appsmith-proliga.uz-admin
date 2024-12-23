@@ -1,0 +1,60 @@
+{
+  "allowedFileTypes": [
+    "image/jpeg",
+    ".png",
+    "image/*"
+  ],
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 17,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Base64",
+  "files": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "my2q0hr68u",
+  "label": "select",
+  "leftColumn": 10,
+  "maxFileSize": 5,
+  "maxNumFiles": 1,
+  "minWidth": 120,
+  "mobileBottomRow": 12,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 8,
+  "needsErrorInfo": false,
+  "onFilesSelected": "{{Api1.run().then(() => {\n  InsertQuery.run().then(() => {\n    showAlert('Saqlandi');\n  }).catch(() => {\n    showAlert('Saqlashda Xatolik');\n  });\n  SelectQuery.run();\n  closeModal(Modal2.name);\n});}}",
+  "originalBottomRow": 17,
+  "originalTopRow": 10,
+  "parentColumnSpace": 6.9375,
+  "parentId": "7ns43xrziq",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 56,
+  "selectedFiles": [],
+  "topRow": 10,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "9t805255m2",
+  "widgetName": "FilePicker1"
+}

@@ -1,0 +1,12 @@
+UPDATE public."user_prize" SET
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+		"competition_id" = '{{update_form.fieldState.competition_id.isVisible ? update_form.formData.competition_id : update_form.sourceData.competition_id}}',
+    "season_id" = '{{update_form.fieldState.season_id.isVisible ? update_form.formData.season_id : update_form.sourceData.season_id}}',
+		"team_id" = '{{update_form.fieldState.team_id.isVisible ? update_form.formData.team_id : update_form.sourceData.team_id}}',
+		"user_id" = '{{update_form.fieldState.user_id.isVisible ? update_form.formData.user_id : update_form.sourceData.user_id}}',
+		"prize_id" = '{{update_form.fieldState.prize_id.isVisible ? update_form.formData.prize_id : update_form.sourceData.prize_id}}',
+		"team_point" = '{{update_form.fieldState.team_point.isVisible ? update_form.formData.team_point : update_form.sourceData.team_point}}',
+		"prize_order" = '{{update_form.fieldState.prize_order.isVisible ? update_form.formData.prize_order : update_form.sourceData.prize_order}}',
+		"updated_by" = '{{update_form.fieldState.updated_by.isVisible ? update_form.formData.updated_by : update_form.sourceData.updated_by}}',
+		"last_tour_point" = '{{update_form.fieldState.last_tour_point.isVisible ? update_form.formData.last_tour_point : update_form.sourceData.last_tour_point}}'
+WHERE "id" = {{data_table.selectedRow.id}};

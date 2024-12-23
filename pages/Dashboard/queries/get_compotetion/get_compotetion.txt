@@ -1,0 +1,1 @@
+SELECT count(*) from competition WHERE deleted_at is NULL

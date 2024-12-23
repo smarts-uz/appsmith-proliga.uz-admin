@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "675aa657ef52357b20121d83_df9981db-8c73-420e-89f4-bac91a177df2",
+  "id": "Turlar_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "Turlar",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  english: {\n    translation: Constants.defaultLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

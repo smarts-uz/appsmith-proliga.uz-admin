@@ -1,0 +1,13 @@
+UPDATE public."competition" SET
+		"name" = '{{update_form.formData.name?update_form.formData.name : update_form.sourceData.name}}',
+		"title" = '{{update_form.formData.title?update_form.formData.title : update_form.sourceData.title}}',
+    "counter" = '{{update_form.formData.counter ? update_form.formData.counter : update_form.sourceData.counter}}',
+		"country_id" = '{{update_form.formData.country_id ? update_form.formData.country_id : update_form.sourceData.country_id}}',
+		"flag" = '{{ Api2.data ? "https://proliga.uz" + JSON.parse(Api2.data).filePath : update_form.formData.flag || "" }}',
+		"name_ru" = '{{update_form.formData.name_ru ? update_form.formData.name_ru : update_form.sourceData.name_ru}}',
+		"slug" = '{{update_form.formData.slug ? update_form.formData.slug : update_form.sourceData.slug}}',
+		"competition_link" = '{{update_form.formData.competition_link ? update_form.formData.competition_link : update_form.sourceData.competition_link}}',
+		"can_register" = '{{update_form.formData.can_register ? update_form.formData.can_register : update_form.sourceData.can_register}}',
+		"team_count" = '{{update_form.formData.team_count ? update_form.formData.team_count : update_form.sourceData.team_count}}',
+		"average_team_point" = '{{update_form.formData.average_team_point ? update_form.formData.average_team_point : update_form.sourceData.average_team_point}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

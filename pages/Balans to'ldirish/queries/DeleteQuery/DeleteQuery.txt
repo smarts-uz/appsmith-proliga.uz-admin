@@ -1,0 +1,2 @@
+DELETE FROM public."pay_balance"
+  WHERE "id" = {{data_table.triggeredRow.id}};

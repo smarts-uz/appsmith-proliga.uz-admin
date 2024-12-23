@@ -1,0 +1,6 @@
+{
+  "base64Data": "{{ FilePicker2.files[0]?.data ? cut.formatBase64Data(FilePicker2.files[0].data) : '' }}",
+  "fileName": "{{ FilePicker2.files[0]?.name ? 'app.' + cutExtentiton.formatExtension(FilePicker2.files[0].name) : '' }}",
+  "folderName": "prizes",
+  "subFolderName": "{{select_competition.data.find(comp => comp.id === update_form.formData.competition_id)?.slug+'/'+update_form.formData.type || '' }}"
+}

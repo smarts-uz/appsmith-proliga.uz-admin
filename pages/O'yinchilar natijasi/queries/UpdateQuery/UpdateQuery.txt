@@ -1,0 +1,12 @@
+UPDATE public."player_result" SET
+	"played_min" = '{{update_form.formData.played_min ?? update_form.sourceData.played_min}}',
+	"goal" = '{{update_form.formData.goal ?? update_form.sourceData.goal}}',
+	"goal_asist" = '{{update_form.formData.goal_asist ?? update_form.sourceData.goal_asist}}',
+	"missed_penalty" = '{{update_form.formData.missed_penalty ?? update_form.sourceData.missed_penalty}}',
+  "is_shutout" = '{{update_form.formData.is_shutout ?? update_form.sourceData.is_shutout}}',
+  "is_red_card" = '{{update_form.formData.is_red_card ?? update_form.sourceData.is_red_card}}',
+  "yellow_card" = '{{update_form.formData.yellow_card ?? update_form.sourceData.yellow_card}}',
+  "every_2_missed_goals" = '{{update_form.formData.every_2_missed_goals ?? update_form.sourceData.every_2_missed_goals}}',
+  "autogoal" = '{{update_form.formData.autogoal ?? update_form.sourceData.autogoal}}',
+  "blocked_penalty" = '{{update_form.formData.blocked_penalty ?? update_form.sourceData.blocked_penalty}}'
+WHERE "id" = {{data_table.selectedRow.id}};

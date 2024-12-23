@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "675aa657ef52357b20121d83_4b9168b9-9fd1-45b7-9352-9f3b47a7652e",
+  "id": "Turlar_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Turlar",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"Nomi\": \"Nomi\",\n  \"Tartib\": \"Tartib\",\n  \"Chempionat\": \"Chempionat\",\n  \"Mavsum\": \"Mavsum\",\n  \"Boshlanish vaqti\": \"Boshlanish vaqti\",\n  \"Tugash vaqti\": \"Tugash vaqti\",\n  \"Status\": \"Status\",\n  \"Qizil kartochka\": \"Qizil kartochka\",\n  \"Sariq kartochka\": \"Sariq kartochka\",\n  \"O'yinga tushganiga\": \"O'yinga tushganiga\",\n  \"60 minutdan ko'p o'ynaganiga\": \"60 minutdan ko'p o'ynaganiga\",\n  \"Quruq o'yin\": \"Quruq o'yin\",\n  \"Yaratilgan vaqti\": \"Yaratilgan vaqti\",\n  \"Qaytarilgan penalty\": \"Qaytarilgan penalty\",\n  \"Avtogol\": \"Avtogol\",\n  \"Turlar\": \"Turlar\",\n  \"Language\": \"Language\",\n  \"Switching Languages\": \"Switching Languages\"\n}"
+      },
+      {
+        "name": "languageOptions",
+        "value": "[\"Russian\", \"Uzbek\"]"
+      }
+    ]
+  }
+}

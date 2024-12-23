@@ -1,0 +1,1 @@
+SELECT unnest(enum_range(NULL::match_status)) AS enum_value;

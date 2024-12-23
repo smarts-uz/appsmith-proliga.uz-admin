@@ -1,0 +1,14 @@
+UPDATE public."club" 
+SET
+    "name" = '{{ update_form.formData.name || update_form.sourceData.name }}',
+    "name_ru" = '{{ update_form.formData.name_ru || update_form.sourceData.name_ru }}',
+    "competition_id" = '{{ update_form.formData.competition_id || update_form.sourceData.competition_id }}',
+    "club_link" = '{{ update_form.formData.club_link || update_form.sourceData.club_link }}',
+    "country_id" = '{{ update_form.formData.country_id || update_form.sourceData.country_id }}',
+    "native" = '{{ update_form.formData.native || update_form.sourceData.native }}',
+    "form_img" =  '{{ Api2.data ? "https://proliga.uz" + JSON.parse(Api2.data).filePath : update_form.formData.form_img || "" }}',
+    "logo_img" =  '{{ Api4.data ? "https://proliga.uz" + JSON.parse(Api4.data).filePath : update_form.formData.logo_img || "" }}',
+    "slug" = '{{ update_form.formData.slug || update_form.sourceData.slug }}',
+    "region" = '{{ update_form.formData.region || update_form.sourceData.region }}',
+    "trainer" = '{{ update_form.formData.trainer || update_form.sourceData.trainer }}'
+WHERE "id" = {{ data_table.selectedRow.id }};

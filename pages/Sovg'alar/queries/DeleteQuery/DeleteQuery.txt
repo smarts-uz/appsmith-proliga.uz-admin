@@ -1,0 +1,1 @@
+UPDATE prize SET deleted_at='{{nowdate.myFun2.data}}'::timestamptz WHERE id={{data_table.triggeredRow.id}}

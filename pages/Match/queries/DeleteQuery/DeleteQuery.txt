@@ -1,0 +1,1 @@
+UPDATE match SET deleted_at='{{JSObject1.myFun2.data}}'::timestamptz WHERE id={{data_table.triggeredRow.id}}

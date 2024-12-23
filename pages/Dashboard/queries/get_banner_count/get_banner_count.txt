@@ -1,0 +1,1 @@
+SELECT count(*) FROM banner WHERE banner_type is NOT NULL

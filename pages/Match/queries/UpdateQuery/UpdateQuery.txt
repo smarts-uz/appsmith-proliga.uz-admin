@@ -1,0 +1,14 @@
+UPDATE public."match" SET
+	"name" = '{{update_form.formData.name ?? update_form.sourceData.name}}',
+	"home_club_id" = '{{update_form.formData.home_club_id ?? update_form.sourceData.home_club_id}}',
+    "away_club_id" = '{{update_form.formData.away_club_id ?? update_form.sourceData.away_club_id}}',
+	"started_date" = '{{update_form.formData.started_date ?? update_form.sourceData.started_date}}',
+	"season_id" = '{{update_form.formData.season_id ?? update_form.sourceData.season_id}}',
+	"postphoned_date" = '{{update_form.formData.postphoned_date ?? update_form.sourceData.postphoned_date}}',
+	"winner_club_id" = '{{update_form.formData.winner_club_id ?? update_form.sourceData.winner_club_id}}',
+	"finished_date" = '{{update_form.formData.finished_date ?? update_form.sourceData.finished_date}}',
+	"tour_id" = '{{update_form.formData.tour_id ?? update_form.sourceData.tour_id}}',
+	"home_club_result" = '{{update_form.formData.home_club_result ?? update_form.sourceData.home_club_result}}',
+	"away_club_result" = '{{update_form.formData.away_club_result ?? update_form.sourceData.away_club_result}}',
+	"status" = '{{update_form.formData.status ?? update_form.sourceData.status}}'
+WHERE "id" = {{data_table.selectedRow.id}};

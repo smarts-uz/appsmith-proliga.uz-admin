@@ -1,0 +1,13 @@
+UPDATE public."tour" SET
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+		"competition_name" = '{{update_form.fieldState.competition_name.isVisible ? update_form.formData.competition_name : update_form.sourceData.competition_name}}',
+    "season_name" = '{{update_form.fieldState.season_name.isVisible ? update_form.formData.season_name : update_form.sourceData.season_name}}',
+		"competition_id" = '{{update_form.fieldState.competition_id.isVisible ? update_form.formData.competition_id : update_form.sourceData.competition_id}}',
+		"season_id" = '{{update_form.fieldState.season_id.isVisible ? update_form.formData.season_id : update_form.sourceData.season_id}}',
+		"datetime_start" = '{{update_form.fieldState.datetime_start.isVisible ? update_form.formData.datetime_start : update_form.sourceData.datetime_start}}',
+		"status" = '{{update_form.fieldState.status.isVisible ? update_form.formData.status : update_form.sourceData.status}}',
+		"order" = '{{update_form.fieldState.order.isVisible ? update_form.formData.order : update_form.sourceData.order}}',
+		"datetime_end" = '{{update_form.fieldState.datetime_end.isVisible ? update_form.formData.datetime_end : update_form.sourceData.datetime_end}}',
+		"created_at" = '{{update_form.fieldState.created_at.isVisible ? update_form.formData.created_at : update_form.sourceData.created_at}}',
+		"updated_at" = '{{update_form.fieldState.updated_at.isVisible ? update_form.formData.updated_at : update_form.sourceData.updated_at}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

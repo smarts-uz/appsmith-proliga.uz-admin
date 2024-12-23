@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "675aa657ef52357b20121d83_20364475-b749-45e4-ac78-23c49b4ea8ec",
+  "id": "Match_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Match",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"Nomi\": \"Nomi\",\n  \"Chempionat\": \"Chempionat\",\n  \"Mezbon jamoa\": \"Mezbon jamoa\",\n  \"Mehmon jamoa\": \"Mehmon jamoa\",\n  \"Boshlanish sanasi\": \"Boshlanish sanasi\",\n  \"Mavsum\": \"Mavsum\",\n  \"Ko'chirilgan vaqti\": \"Ko'chirilgan vaqti\",\n  \"G'olib jamao\": \"G'olib jamao\",\n  \"Tugash sanasi\": \"Tugash sanasi\",\n  \"Tur\": \"Tur\",\n  \"Mezbon jamoa natijasi\": \"Mezbon jamoa natijasi\",\n  \"Mehmon jamoa natijasi\": \"Mehmon jamoa natijasi\",\n  \"Holat\": \"Holat\",\n  \"O'chirish\": \"O'chirish\",\n  \"Match\": \"Match\",\n  \"Language\": \"Language\",\n  \"Switching Languages\": \"Switching Languages\"\n}"
+      },
+      {
+        "name": "languageOptions",
+        "value": "[\"Russian\", \"Uzbek\"]"
+      }
+    ]
+  }
+}

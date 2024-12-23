@@ -1,0 +1,28 @@
+INSERT INTO public."match" (
+	"name",
+	"home_club_id",
+	"away_club_id",
+	"started_date",
+	"season_id",
+	"postphoned_date",
+	"winner_club_id",
+	"finished_date",
+	"tour_id",
+	"home_club_result",
+	"away_club_result",
+	"status"
+)
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.home_club_id}}',
+	'{{insert_form.formData.away_club_id}}',
+	'{{insert_form.formData.started_date}}',
+	'{{insert_form.formData.season_id}}',
+	'{{insert_form.formData.postphoned_date}}',
+	'{{insert_form.formData.winner_club_id}}',
+	'{{insert_form.formData.finished_date}}',
+	'{{insert_form.formData.tour_id}}',
+	'{{insert_form.formData.home_club_result}}',
+	'{{insert_form.formData.away_club_result}}',
+	'{{insert_form.formData.status}}'
+);

@@ -1,0 +1,13 @@
+UPDATE public."pay_package" SET
+		"name_uz" = '{{update_form.fieldState.name_uz.isVisible ? update_form.formData.name_uz : update_form.sourceData.name_uz}}',
+		"type" = '{{update_form.fieldState.type.isVisible ? update_form.formData.type : update_form.sourceData.type}}',
+    "amount" = '{{update_form.fieldState.amount.isVisible ? update_form.formData.amount : update_form.sourceData.amount}}',
+		"priority" = '{{update_form.fieldState.priority.isVisible ? update_form.formData.priority : update_form.sourceData.priority}}',
+		"name_ru" = '{{update_form.fieldState.name_ru.isVisible ? update_form.formData.name_ru : update_form.sourceData.name_ru}}',
+		"price" = '{{update_form.fieldState.price.isVisible ? update_form.formData.price : update_form.sourceData.price}}',
+		"created_at" = '{{update_form.fieldState.created_at.isVisible ? update_form.formData.created_at : update_form.sourceData.created_at}}',
+		"updated_at" = '{{update_form.fieldState.updated_at.isVisible ? update_form.formData.updated_at : update_form.sourceData.updated_at}}',
+		"deleted_at" = '{{update_form.fieldState.deleted_at.isVisible ? update_form.formData.deleted_at : update_form.sourceData.deleted_at}}',
+		"created_by" = '{{update_form.fieldState.created_by.isVisible ? update_form.formData.created_by : update_form.sourceData.created_by}}',
+		"updated_by" = '{{update_form.fieldState.updated_by.isVisible ? update_form.formData.updated_by : update_form.sourceData.updated_by}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

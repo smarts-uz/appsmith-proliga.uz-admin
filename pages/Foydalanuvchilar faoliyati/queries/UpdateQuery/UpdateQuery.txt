@@ -1,0 +1,13 @@
+UPDATE public."user_activity" SET
+		"name_uz" = '{{update_form.fieldState.name_uz.isVisible ? update_form.formData.name_uz : update_form.sourceData.name_uz}}',
+		"user_id" = '{{update_form.fieldState.user_id.isVisible ? update_form.formData.user_id : update_form.sourceData.user_id}}',
+    "activity" = '{{update_form.fieldState.activity.isVisible ? update_form.formData.activity : update_form.sourceData.activity}}',
+		"team_id" = '{{update_form.fieldState.team_id.isVisible ? update_form.formData.team_id : update_form.sourceData.team_id}}',
+		"created_at" = '{{update_form.fieldState.created_at.isVisible ? update_form.formData.created_at : update_form.sourceData.created_at}}',
+		"updated_at" = '{{update_form.fieldState.updated_at.isVisible ? update_form.formData.updated_at : update_form.sourceData.updated_at}}',
+		"deleted_at" = '{{update_form.fieldState.deleted_at.isVisible ? update_form.formData.deleted_at : update_form.sourceData.deleted_at}}',
+		"created_by" = '{{update_form.fieldState.created_by.isVisible ? update_form.formData.created_by : update_form.sourceData.created_by}}',
+		"updated_by" = '{{update_form.fieldState.updated_by.isVisible ? update_form.formData.updated_by : update_form.sourceData.updated_by}}',
+		"deleted_by" = '{{update_form.fieldState.deleted_by.isVisible ? update_form.formData.deleted_by : update_form.sourceData.deleted_by}}',
+		"name_ru" = '{{update_form.fieldState.name_ru.isVisible ? update_form.formData.name_ru : update_form.sourceData.name_ru}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

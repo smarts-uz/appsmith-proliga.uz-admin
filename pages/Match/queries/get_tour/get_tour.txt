@@ -1,0 +1,1 @@
+SELECT * FROM tour order by tour.competition_id , tour.order
